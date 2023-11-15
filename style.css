@@ -1,13 +1,11 @@
-* {
-  font-family:'Times New Roman', Times, serif;
-  color: whitesmoke
-}
+
 
 body {
   background-image: url('./assets/images/Modern_abstract_blue_transparent_crystal_pattern_background.jpg')
 }
 
 hero {
+  color: #fff;
   font-weight: 30px;
   font-size: 26px;
   display: flex;
@@ -17,12 +15,15 @@ hero {
   background-color:rgb(17, 71, 159);
   padding: 26px;
 }
+div {
+  margin: 20px;
+}
 
 button {
   all: unset;
   cursor: pointer;
   width: 44px;
-  height: 44px;
+  height: 35px;
 }
 
 svg {
@@ -34,7 +35,7 @@ svg {
 }
 
 form {
-  background-color: #4654e1;
+  background-color: #fff;
   width: 300px;
   height: 44px;
   border-radius: 5px;
@@ -46,7 +47,6 @@ form {
 input {
   all: unset;
   font: 16px system-ui;
-  color: #fff;
   height: 100%;
   width: 100%;
   padding: 6px 10px;
