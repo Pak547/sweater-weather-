@@ -6,13 +6,9 @@ This weather application intakes a city value and processes through the openweat
 
 ## Installation
 
-You may possible need to input your own API key through the openweater website.
+You may possibly need to input your own API key through the openweater website.
 
 ## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
 Simply input the city that you want weather information from
 ![Alt text](<assets/images/Sweaterweather 1.png>)
