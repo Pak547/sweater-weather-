@@ -1,5 +1,3 @@
-let APIkey = keys.APIkey
-
 let lat = "";
 let lon = "";
 let baseUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${APIkey}&units=imperial`
@@ -67,7 +65,7 @@ searchButton.addEventListener('click', function() {
     historyList.appendChild(newLI)
 
     //Added location.protocol 'if statement' due to GitHub pages not properly fetching without the correct protocol
-    if (location.protocol === 'http:') {
+    if (location.protocol === 'http') {
         findLatLongUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${cityInput}&appid=${APIkey}`
     } else {
         findLatLongUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${cityInput}&appid=${APIkey}`
